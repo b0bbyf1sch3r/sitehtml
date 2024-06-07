@@ -75,7 +75,7 @@ a {
 }
 
 #showcase {
-    height: calc(100vh - 80px);
+    height: 100vh;
     /* Subtrai a altura da navbar */
     display: flex;
     justify-content: center;

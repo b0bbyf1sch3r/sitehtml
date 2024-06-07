@@ -76,8 +76,7 @@ a {
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: color;
-    height: calc(100vh - 80px);
-    /* Subtrai a altura da navbar */
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -150,7 +149,7 @@ span:nth-of-type(2) {
     width: 100%;
     background: #222;
     color: #eee;
-    padding: 50px;
+    padding: 60px;
 }
 
 #features-container {
@@ -163,14 +162,16 @@ span:nth-of-type(2) {
 
 .feature {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background: #333;
-    padding: 20px;
+    padding: 10px;
     border-radius: 5px;
+    align-items: center;
 }
 
 .feature-title {
     font-size: 1.5rem;
+    padding: 10px;
     font-weight: bold;
 }
 
@@ -191,7 +192,7 @@ span:nth-of-type(2) {
 #product-container .ia3 {
     box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.7);
     display: inline-block;
-    width: 100%;
+    width: 40%;
     height: auto;
     border-radius: 5px;
 }
@@ -230,14 +231,14 @@ span:nth-of-type(2) {
 }
 
 #testimonials-container {
-    width: 95%;
+    width: 90%;
     margin: auto;
     display: flex;
     flex-direction: column;
 }
 
 #gallery {
-    width: 90%;
+    width: 65%;
     margin: auto;
     padding-top: 20px;
     padding-bottom: 20px;
