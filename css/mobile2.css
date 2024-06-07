@@ -1,0 +1,22 @@
+#navbar {
+  height: 80px;
+  position: fixed;
+}
+
+#navbar-container {
+  flex-direction: column;
+  padding: 20px 0;
+}
+
+#navbar-itens {
+  display: none;
+}
+
+#navbar-itens li:nth-child(2) {
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+}
+
+.btn {
+  padding: 15px 40px;
+}
