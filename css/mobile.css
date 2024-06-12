@@ -19,7 +19,6 @@
   border-bottom: 1px solid #333;
 }
 
-
 .btn {
   padding: 15px 40px;
 }
@@ -44,15 +43,29 @@
 #product-container {
   flex-direction: column;
 }
+#product {
+  width: 95%;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
-
+#product-container iframe {
+  box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.7);
+  display: inline-block;
+  width: 60cqmax;
+  height: 35vh;
+  border-radius: 5px; 
+}
 
 #product-container #itens .item {
   padding-left: 0px;
 }
 
+
 #itens {
   width: 90%;
+  padding-left: 0px;
 }
 
 .item {
