@@ -86,7 +86,7 @@ a {
     padding-top: 80px;
     /* Adiciona padding para compensar a navbar fixa */
 }
-iframe {
+#showcase iframe {
     position: absolute;
     top: 0;
     left: 0;
@@ -188,14 +188,14 @@ span:nth-of-type(2) {
     justify-content: center;
     align-items: center;
 }
-
-#product-container .ia3 {
+#product-container iframe {
     box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.7);
     display: inline-block;
-    width: 40%;
-    height: auto;
+    width: auto;
+    height: 100%;
     border-radius: 5px;
 }
+
 
 #product-container #itens .item {
     text-align: justify;
