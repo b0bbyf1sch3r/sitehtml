@@ -191,7 +191,7 @@ span:nth-of-type(2) {
 #product-container iframe {
     box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.7);
     display: inline-block;
-    width: 40cqmax;
+    width: 45cqmax;
     height: 35vh;
     border-radius: 5px; 
 }
@@ -204,7 +204,6 @@ span:nth-of-type(2) {
 
 
 #itens {
-    padding-left: 10vh;
     width: 650px;
 }
 

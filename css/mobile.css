@@ -53,7 +53,7 @@
 #product-container iframe {
   box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.7);
   display: inline-block;
-  width: 60cqmax;
+  width: 50cqmax;
   height: 35vh;
   border-radius: 5px; 
 }
